@@ -37,4 +37,4 @@ jobs:
           MODULES=caption,summarize,classify,embeddings
           REQUIREMENTS=requirements.txt
         push: true
-        tags: sillytavern-extras:$(date +%s)
+        tags: sillytavern-extras:200324
