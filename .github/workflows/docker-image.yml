@@ -34,7 +34,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         build-args: |
-          MODULES=caption,summarize,classify,embeddings
+          MODULES=summarize,embeddings
           REQUIREMENTS=requirements.txt
         push: true
         tags: sillytavern-extras:200324
